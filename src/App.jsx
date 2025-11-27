@@ -2,6 +2,8 @@ import React from 'react'
 import About from './About'
 import Count from './Count'
 import PasswordShow from './PasswordShow'
+import UseEffect from './UseEffect'
+import UseEffectTwo from './UseEffectTwo'
 
 const App = () => {
   return (
@@ -10,7 +12,9 @@ const App = () => {
       <h1>Lorem ipsum dolor sit amet.</h1>
       {/* <About/>
       <Count/> */}
-      <PasswordShow/>
+      {/* <PasswordShow/> */}
+      {/* <UseEffect/> */}
+      <UseEffectTwo/>
     </>
   )
 }
